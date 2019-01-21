@@ -11,8 +11,12 @@
 		58DC7B1A21F5F52D00D719EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7B1921F5F52D00D719EC /* ViewController.swift */; };
 		58DC7B1D21F5F52D00D719EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC7B1B21F5F52D00D719EC /* Main.storyboard */; };
 		58DC7B1F21F5F53000D719EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DC7B1E21F5F53000D719EC /* Assets.xcassets */; };
-		58DC7B2221F5F53000D719EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC7B2021F5F53000D719EC /* LaunchScreen.storyboard */; };
 		58DC7B2D21F5F53000D719EC /* SpiralLoaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7B2C21F5F53000D719EC /* SpiralLoaderViewTests.swift */; };
+		58DC7B3B21F5F84000D719EC /* SpiralAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7B3821F5F84000D719EC /* SpiralAnimationView.swift */; };
+		58DC7B3C21F5F84000D719EC /* SpiralLoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58DC7B3921F5F84000D719EC /* SpiralLoaderView.xib */; };
+		58DC7B3D21F5F84000D719EC /* SpiralLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC7B3A21F5F84000D719EC /* SpiralLoaderView.swift */; };
+		84A5F2C017F13FE1EA57FAB2 /* Pods_SpiralLoaderViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFF3C6F9E4DFCCAD691CB41 /* Pods_SpiralLoaderViewTests.framework */; };
+		DE711DF42E0826495F04038E /* Pods_SpiralLoaderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A16ED882B28A91B46E0C185 /* Pods_SpiralLoaderView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A16ED882B28A91B46E0C185 /* Pods_SpiralLoaderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoaderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFF3C6F9E4DFCCAD691CB41 /* Pods_SpiralLoaderViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpiralLoaderViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DC7B1421F5F52D00D719EC /* SpiralLoaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiralLoaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DC7B1721F5F52D00D719EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58DC7B1921F5F52D00D719EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58DC7B1C21F5F52D00D719EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58DC7B1E21F5F53000D719EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		58DC7B2121F5F53000D719EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58DC7B2321F5F53000D719EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58DC7B2821F5F53000D719EC /* SpiralLoaderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiralLoaderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DC7B2C21F5F53000D719EC /* SpiralLoaderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralLoaderViewTests.swift; sourceTree = "<group>"; };
 		58DC7B2E21F5F53000D719EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DC7B3821F5F84000D719EC /* SpiralAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralAnimationView.swift; sourceTree = "<group>"; };
+		58DC7B3921F5F84000D719EC /* SpiralLoaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpiralLoaderView.xib; sourceTree = "<group>"; };
+		58DC7B3A21F5F84000D719EC /* SpiralLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiralLoaderView.swift; sourceTree = "<group>"; };
+		67B837B5BCB3966FC525199A /* Pods-SpiralLoaderViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoaderViewTests.release.xcconfig"; path = "Target Support Files/Pods-SpiralLoaderViewTests/Pods-SpiralLoaderViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		81F6F11895AD6594A1274B53 /* Pods-SpiralLoaderViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoaderViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SpiralLoaderViewTests/Pods-SpiralLoaderViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFADEBF7A19F7AA93521E55 /* Pods-SpiralLoaderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoaderView.debug.xcconfig"; path = "Target Support Files/Pods-SpiralLoaderView/Pods-SpiralLoaderView.debug.xcconfig"; sourceTree = "<group>"; };
+		F43AD99FF77EC5CCD8EB40BB /* Pods-SpiralLoaderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpiralLoaderView.release.xcconfig"; path = "Target Support Files/Pods-SpiralLoaderView/Pods-SpiralLoaderView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE711DF42E0826495F04038E /* Pods_SpiralLoaderView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A5F2C017F13FE1EA57FAB2 /* Pods_SpiralLoaderViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3144FCFA8BF4D08E5C0171ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBFADEBF7A19F7AA93521E55 /* Pods-SpiralLoaderView.debug.xcconfig */,
+				F43AD99FF77EC5CCD8EB40BB /* Pods-SpiralLoaderView.release.xcconfig */,
+				81F6F11895AD6594A1274B53 /* Pods-SpiralLoaderViewTests.debug.xcconfig */,
+				67B837B5BCB3966FC525199A /* Pods-SpiralLoaderViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		42E92A49BAB2BA11F5C48749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A16ED882B28A91B46E0C185 /* Pods_SpiralLoaderView.framework */,
+				3DFF3C6F9E4DFCCAD691CB41 /* Pods_SpiralLoaderViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58DC7B0B21F5F52D00D719EC = {
 			isa = PBXGroup;
 			children = (
 				58DC7B1621F5F52D00D719EC /* SpiralLoaderView */,
 				58DC7B2B21F5F53000D719EC /* SpiralLoaderViewTests */,
 				58DC7B1521F5F52D00D719EC /* Products */,
+				3144FCFA8BF4D08E5C0171ED /* Pods */,
+				42E92A49BAB2BA11F5C48749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +113,11 @@
 		58DC7B1621F5F52D00D719EC /* SpiralLoaderView */ = {
 			isa = PBXGroup;
 			children = (
+				58DC7B3721F5F84000D719EC /* SpiralLoader */,
 				58DC7B1721F5F52D00D719EC /* AppDelegate.swift */,
 				58DC7B1921F5F52D00D719EC /* ViewController.swift */,
 				58DC7B1B21F5F52D00D719EC /* Main.storyboard */,
 				58DC7B1E21F5F53000D719EC /* Assets.xcassets */,
-				58DC7B2021F5F53000D719EC /* LaunchScreen.storyboard */,
 				58DC7B2321F5F53000D719EC /* Info.plist */,
 			);
 			path = SpiralLoaderView;
@@ -96,6 +132,16 @@
 			path = SpiralLoaderViewTests;
 			sourceTree = "<group>";
 		};
+		58DC7B3721F5F84000D719EC /* SpiralLoader */ = {
+			isa = PBXGroup;
+			children = (
+				58DC7B3821F5F84000D719EC /* SpiralAnimationView.swift */,
+				58DC7B3921F5F84000D719EC /* SpiralLoaderView.xib */,
+				58DC7B3A21F5F84000D719EC /* SpiralLoaderView.swift */,
+			);
+			path = SpiralLoader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DC7B3121F5F53000D719EC /* Build configuration list for PBXNativeTarget "SpiralLoaderView" */;
 			buildPhases = (
+				D2F637A6960035C4398FD2FE /* [CP] Check Pods Manifest.lock */,
 				58DC7B1021F5F52D00D719EC /* Sources */,
 				58DC7B1121F5F52D00D719EC /* Frameworks */,
 				58DC7B1221F5F52D00D719EC /* Resources */,
@@ -120,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DC7B3421F5F53000D719EC /* Build configuration list for PBXNativeTarget "SpiralLoaderViewTests" */;
 			buildPhases = (
+				B77FB91810CADDAD07801E19 /* [CP] Check Pods Manifest.lock */,
 				58DC7B2421F5F53000D719EC /* Sources */,
 				58DC7B2521F5F53000D719EC /* Frameworks */,
 				58DC7B2621F5F53000D719EC /* Resources */,
@@ -177,8 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DC7B2221F5F53000D719EC /* LaunchScreen.storyboard in Resources */,
 				58DC7B1F21F5F53000D719EC /* Assets.xcassets in Resources */,
+				58DC7B3C21F5F84000D719EC /* SpiralLoaderView.xib in Resources */,
 				58DC7B1D21F5F52D00D719EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,12 +240,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B77FB91810CADDAD07801E19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiralLoaderViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F637A6960035C4398FD2FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpiralLoaderView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58DC7B1021F5F52D00D719EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DC7B3B21F5F84000D719EC /* SpiralAnimationView.swift in Sources */,
 				58DC7B1A21F5F52D00D719EC /* ViewController.swift in Sources */,
+				58DC7B3D21F5F84000D719EC /* SpiralLoaderView.swift in Sources */,
 				58DC7B1821F5F52D00D719EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,14 +324,6 @@
 				58DC7B1C21F5F52D00D719EC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		58DC7B2021F5F53000D719EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58DC7B2121F5F53000D719EC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -358,8 +447,8 @@
 		};
 		58DC7B3221F5F53000D719EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFADEBF7A19F7AA93521E55 /* Pods-SpiralLoaderView.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SpiralLoaderView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -375,8 +464,8 @@
 		};
 		58DC7B3321F5F53000D719EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43AD99FF77EC5CCD8EB40BB /* Pods-SpiralLoaderView.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SpiralLoaderView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,6 +481,7 @@
 		};
 		58DC7B3521F5F53000D719EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F6F11895AD6594A1274B53 /* Pods-SpiralLoaderViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +502,7 @@
 		};
 		58DC7B3621F5F53000D719EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B837B5BCB3966FC525199A /* Pods-SpiralLoaderViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
