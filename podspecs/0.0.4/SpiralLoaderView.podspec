@@ -19,12 +19,13 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.4"
   spec.summary      = "Spiral type load"
 
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Spiral type load. Can be used in the application where multispiral loader is required"
+  spec.description  = <<-DESC
+   SpiralLoaderView is an iOS drop-in class that displays a translucent HUD
+   with an indicator and/or labels while work is being done in a background thread.
+   The HUD is meant as a replacement for the undocumented, private UIKit UIProgressHUD
+   with some additional features.
+                   DESC
+
   spec.homepage     = "https://github.com/ravi-jubl/SpiralLoaderView.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
