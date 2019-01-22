@@ -20,7 +20,7 @@ class SpiralLoaderView: UIView {
                 view.frame = window.frame
                 view.tag = 5000
                 window.addSubview(view)
-                window.bringSubviewToFront(view)
+                window.bringSubview(toFront: view)
             }
     }
     
@@ -35,7 +35,8 @@ class SpiralLoaderView: UIView {
             view.frame = parentView.frame
             view.tag = 5000
             parentView.addSubview(view)
-            parentView.bringSubviewToFront(view)
+            //parentView.bringSubviewToFront(view)
+            parentView.bringSubview(toFront: view)
     }
     
     class func removeLoaderFromView (_ parentView: UIView) {
